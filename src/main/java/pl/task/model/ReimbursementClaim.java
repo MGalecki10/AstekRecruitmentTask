@@ -1,4 +1,6 @@
-package pl.task;
+package pl.task.model;
+
+import pl.task.model.Receipt;
 
 import java.time.LocalDate;
 import java.util.List;

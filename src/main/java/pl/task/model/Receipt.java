@@ -1,4 +1,4 @@
-package pl.task;
+package pl.task.model;
 
 public class Receipt {
     private String type;
