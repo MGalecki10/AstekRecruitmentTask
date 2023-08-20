@@ -6,26 +6,17 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class ReimbursementClaim {
-    private LocalDate tripDate;
+    private String tripDate;
     private List<Receipt> receipts;
     private int tripDurationInDays;
     private boolean disableOnSpecificDays;
     private double distanceDriven;
 
-    public ReimbursementClaim(LocalDate tripDate, List<Receipt> receipts, int tripDurationInDays,
-                              boolean disableOnSpecificDays, double distanceDriven) {
-        this.tripDate = tripDate;
-        this.receipts = receipts;
-        this.tripDurationInDays = tripDurationInDays;
-        this.disableOnSpecificDays = disableOnSpecificDays;
-        this.distanceDriven = distanceDriven;
-    }
-
-    public LocalDate getTripDate() {
+    public String getTripDate() {
         return tripDate;
     }
 
-    public void setTripDate(LocalDate tripDate) {
+    public void setTripDate(String tripDate) {
         this.tripDate = tripDate;
     }
 
